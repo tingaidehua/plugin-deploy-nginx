@@ -1,11 +1,11 @@
 {
-  "name": "dsh-deploy-nginx",
+  "name": "plugin-deploy-nginx",
   "version": "0.1.0",
   "description": "DeepSeek Harness plugin: nginx site base, TLS status, safe reload for the ops portal domain.",
   "type": "module",
   "main": "index.js",
   "files": ["index.js", "lib/**", "cordis.patch.yml", "README.md"],
-  "keywords": ["dsh-plugin", "nginx", "tls"],
+  "keywords": ["agent-plugin", "nginx", "tls"],
   "license": "MIT",
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "peerDependencies": { "@deepseek-ai/dsh-tools": "^0.2.1-alpha.2" },

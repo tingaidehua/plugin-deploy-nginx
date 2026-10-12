@@ -1,4 +1,4 @@
-# dsh-deploy-nginx 踩坑
+# plugin-deploy-nginx 踩坑
 
 - 多站点共存：只增 `sites-available/<新域>`，勿改 moneyhunt `/opc/*`
 - certbot：先 HTTP webroot，再写 443；`www` 子域 DNS 未解析时只签裸域
